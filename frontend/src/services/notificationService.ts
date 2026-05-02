@@ -6,7 +6,7 @@ class NotificationService {
   private readonly baseURL: string;
 
   constructor() {
-    this.baseURL = 'http://20.207.122.201/evaluation-service';
+this.baseURL = 'http://localhost:4000';
     this.client = axios.create({
       baseURL: this.baseURL,
       timeout: 15000,
